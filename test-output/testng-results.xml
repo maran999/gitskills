@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-22T12:36:55 IST" name="Default suite" finished-at="2023-10-22T12:37:04 IST" duration-ms="8877">
+    <groups>
+    </groups>
+    <test started-at="2023-10-22T12:36:55 IST" name="Default test" finished-at="2023-10-22T12:37:04 IST" duration-ms="8877">
+      <class name="com.greenkart.step.Home">
+        <test-method signature="launchBrowser()[pri:0, instance:com.greenkart.step.Home@6580cfdd]" started-at="2023-10-22T12:36:55 IST" name="launchBrowser" finished-at="2023-10-22T12:37:02 IST" duration-ms="6954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="selectVegiee()[pri:0, instance:com.greenkart.step.Home@6580cfdd]" started-at="2023-10-22T12:37:02 IST" name="selectVegiee" finished-at="2023-10-22T12:37:04 IST" depends-on-methods="com.greenkart.step.Home.launchBrowser" duration-ms="1546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectVegiee -->
+        <test-method signature="confirmItems()[pri:0, instance:com.greenkart.step.Home@6580cfdd]" started-at="2023-10-22T12:37:04 IST" name="confirmItems" finished-at="2023-10-22T12:37:04 IST" depends-on-methods="com.greenkart.step.Home.selectVegiee" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmItems -->
+      </class> <!-- com.greenkart.step.Home -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
