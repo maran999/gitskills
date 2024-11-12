@@ -18,7 +18,14 @@ public class gitPract {
 	System.out.println("Always happy");
 
 	}
-
+	private void getNoofchildrens() {
+		// TODO Auto-generated method stub
+       System.out.println("three");
+	}
+private void getMarriageYear() {
+	// TODO Auto-generated method stub
+ System.out.println("2025");
+}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
