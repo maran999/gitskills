@@ -14,7 +14,10 @@ public class gitPract {
 		// TODO Auto-generated method stub
 		System.out.println( "10 trillion");
 	}
-	
+	private void getStatus() {
+	System.out.println("Always happy");
+
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
